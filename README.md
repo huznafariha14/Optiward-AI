@@ -1,94 +1,191 @@
-# 🏥 OptiWard AI — Smart Healthcare Resource Management System
+<p align="center">
+  <img src="logo.svg" width="200px" align="center" alt="Zod logo" />
+  <h1 align="center">Zod</h1>
+  <p align="center">
+    TypeScript-first schema validation with static type inference
+    <br/>
+    by <a href="https://x.com/colinhacks">@colinhacks</a>
+  </p>
+</p>
+<br/>
 
-OptiWard AI is a real-time, AI-powered healthcare resource management system and dashboard engineered for modern hospital networks. It assists clinical directors, physicians, and nursing staff in maintaining absolute visibility over hospital beds, critical drugs, medical devices, emergency kits, and active staffing pools. 
+<p align="center">
+<a href="https://github.com/colinhacks/zod/actions?query=branch%3Amain"><img src="https://github.com/colinhacks/zod/actions/workflows/test.yml/badge.svg?event=push&branch=main" alt="Zod CI status" /></a>
+<a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/colinhacks/zod" alt="License"></a>
+<a href="https://www.npmjs.com/package/zod" rel="nofollow"><img src="https://img.shields.io/npm/dw/zod.svg" alt="npm"></a>
+<a href="https://discord.gg/KaSRdyX2vc" rel="nofollow"><img src="https://img.shields.io/discord/893487829802418277?label=Discord&logo=discord&logoColor=white" alt="discord server"></a>
+<a href="https://github.com/colinhacks/zod" rel="nofollow"><img src="https://img.shields.io/github/stars/colinhacks/zod" alt="stars"></a>
+</p>
 
-Utilizing advanced linear forecasting and clinical LLM prompt matrices, OptiWard AI predicts resource depletion paths 6 to 24 hours before a shortage occurs, offering clear clinical action playbooks to avert operational gridlocks.
+<div align="center">
+  <a href="https://zod.dev/api">Docs</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://discord.gg/RcG33DQJdf">Discord</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://twitter.com/colinhacks">𝕏</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://bsky.app/profile/zod.dev">Bluesky</a>
+  <br />
+</div>
 
----
+<br/>
+<br/>
 
-## 🚀 Hackathon Key Differentiators
+### [Read the docs →](https://zod.dev/api)
 
-1. **AI Natural Language Alerts**: Rather than displaying raw percentages, our predictive alarm engine outputs clinical alerts in plain English, explaining *why* a shortage is impending (e.g., "At current trauma admission quotients, ICU beds will cross critical thresholds in 6 hours").
-2. **Predictive Depletion forecasting**: Standard dashboards warn you *when* you are out of stock; OptiWard AI warns you *6 to 24 hours before* you run out, utilizing historical linear regression trends.
-3. **AI Clinical Triage Assistant**: When emergency patients arrive, staff input condition, age, and clinical severity (1-5 scale) to instantly receive optimal bed placement, necessary bedside equipment, authorized medicines, and standby blood type setups.
-4. **CMD Operations Report Generator**: Chief Medical Directors can compile and generate a complete, plain English operational status report (utilization indexes, staffing balance, strategic recommendations) with a single click.
-5. **Real-time WebSockets Sync**: Every dashboard tile, timeline event, and change log synchronizes across all active clinical clients instantly without page reloads.
+<br/>
+<br/>
 
----
+## What is Zod?
 
-## 🛠️ Technology Stack
+Zod is a TypeScript-first validation library. Define a schema and parse some data with it. You'll get back a strongly typed, validated result.
 
-| Layer | Technology | Purpose |
-|---|---|---|
-| **Frontend** | React 19 + Vite 8 | Ultra-fast rendering SPA with hot module reloading. |
-| **Styling** | Custom HSL CSS | Deep slate-navy medical grade layout, premium glassmorphism, responsive grid sheets. |
-| **Charts** | Recharts 3.x | Custom styled area, bar, line, and pie visualizations. |
-| **Backend** | Node.js + Express 5 | REST API endpoints for inventory and AI analytics. |
-| **Real-time** | Socket.io 4.x | Persistent WebSockets protocol for cross-user live inventory updates. |
-| **Database** | Lightweight JSON DB | Self-contained, file-based mock database utilizing local transaction logging, removing MongoDB pre-requisites. |
-| **AI Engine** | OpenAI API (GPT-4o) | Contextual triage recommendations, executive reporting, and predictive alert explanations (includes a highly robust clinical rules local fallback). |
+```ts
+import * as z from "zod";
 
----
+const User = z.object({
+  name: z.string(),
+});
 
-## 📂 System Architecture
+// some untrusted data...
+const input = {
+  /* stuff */
+};
 
-```
-OptiWard/
-├── client/                          # React + Vite frontend
-│   ├── src/
-│   │   ├── components/              # Layout shell, Sidebar, Header, KPI Cards
-│   │   ├── context/                 # Global AppContext managing Socket.io events
-│   │   ├── pages/                   # Dashboard, Alerts, Inventory, Allocation, Analytics
-│   │   ├── index.css                # Global CSS stylesheet & design tokens
-│   │   └── App.jsx                  # Root router & tab manager
-│   └── package.json
-│
-├── server/                          # Node.js + Express backend
-│   ├── routes/                      # API endpoints (Resources, Inventory, Alerts, Analytics)
-│   ├── services/                    # Local DB service, AI engine, Predictive trend service
-│   ├── data/                        # Active JSON data files (auto-seeded)
-│   ├── server.js                    # Entry point establishing Express & Socket.io
-│   └── package.json
-│
-└── run_meditrack.ps1                # One-click portable environment run script
-```
+// the parsed result is validated and type safe!
+const data = User.parse(input);
 
----
-
-## ⚡ Quick Start
-
-OptiWard AI is packaged with a fully portable Node.js environment in the parent directory, meaning you do not need to install Node or MongoDB globally on your machine to test it.
-
-### 1. Launch the Application
-
-We have created an automated runner script `run_meditrack.ps1` in the root folder. 
-
-Open a PowerShell terminal and run:
-```powershell
-./run_meditrack.ps1
+// so you can use it with confidence :)
+console.log(data.name);
 ```
 
-This will:
-1. Temporarily configure the local path to use the portable Node/npm bundle.
-2. Spin up the **Express server** on **http://localhost:5000** (auto-seeding historical trends and resources).
-3. Spin up the **Vite React Dev Server** on **http://localhost:5173**.
-4. Open the application automatically in your default browser.
+<br/>
 
-### 2. Manual Terminal Launch
+## Features
 
-If you prefer to run the client and server manually (with node in your system path):
+- Zero external dependencies
+- Works in Node.js and all modern browsers
+- Tiny: `2kb` core bundle (gzipped)
+- Immutable API: methods return a new instance
+- Concise interface
+- Works with TypeScript and plain JS
+- Built-in JSON Schema conversion
+- Extensive ecosystem
 
-#### Start Backend:
-```bash
-cd server
-npm install
-npm run dev
+<br/>
+
+## Installation
+
+```sh
+npm install zod
 ```
 
-#### Start Frontend:
-```bash
-cd client
-npm install
-npm run dev
+<br/>
+
+## Basic usage
+
+Before you can do anything else, you need to define a schema. For the purposes of this guide, we'll use a simple object schema.
+
+```ts
+import * as z from "zod";
+
+const Player = z.object({
+  username: z.string(),
+  xp: z.number(),
+});
 ```
-Open **http://localhost:5173** in your web browser.
+
+### Parsing data
+
+Given any Zod schema, use `.parse` to validate an input. If it's valid, Zod returns a strongly-typed _deep clone_ of the input.
+
+```ts
+Player.parse({ username: "billie", xp: 100 });
+// => returns { username: "billie", xp: 100 }
+```
+
+**Note** — If your schema uses certain asynchronous APIs like `async` [refinements](https://zod.dev/api#refinements) or [transforms](https://zod.dev/api#transforms), you'll need to use the `.parseAsync()` method instead.
+
+```ts
+const schema = z.string().refine(async (val) => val.length <= 8);
+
+await schema.parseAsync("hello");
+// => "hello"
+```
+
+### Handling errors
+
+When validation fails, the `.parse()` method will throw a `ZodError` instance with granular information about the validation issues.
+
+```ts
+try {
+  Player.parse({ username: 42, xp: "100" });
+} catch (err) {
+  if (err instanceof z.ZodError) {
+    err.issues;
+    /* [
+      {
+        expected: 'string',
+        code: 'invalid_type',
+        path: [ 'username' ],
+        message: 'Invalid input: expected string'
+      },
+      {
+        expected: 'number',
+        code: 'invalid_type',
+        path: [ 'xp' ],
+        message: 'Invalid input: expected number'
+      }
+    ] */
+  }
+}
+```
+
+To avoid a `try/catch` block, you can use the `.safeParse()` method to get back a plain result object containing either the successfully parsed data or a `ZodError`. The result type is a [discriminated union](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions), so you can handle both cases conveniently.
+
+```ts
+const result = Player.safeParse({ username: 42, xp: "100" });
+if (!result.success) {
+  result.error; // ZodError instance
+} else {
+  result.data; // { username: string; xp: number }
+}
+```
+
+**Note** — If your schema uses certain asynchronous APIs like `async` [refinements](https://zod.dev/api#refinements) or [transforms](https://zod.dev/api#transforms), you'll need to use the `.safeParseAsync()` method instead.
+
+```ts
+const schema = z.string().refine(async (val) => val.length <= 8);
+
+await schema.safeParseAsync("hello");
+// => { success: true; data: "hello" }
+```
+
+### Inferring types
+
+Zod infers a static type from your schema definitions. You can extract this type with the `z.infer<>` utility and use it however you like.
+
+```ts
+const Player = z.object({
+  username: z.string(),
+  xp: z.number(),
+});
+
+// extract the inferred type
+type Player = z.infer<typeof Player>;
+
+// use it in your code
+const player: Player = { username: "billie", xp: 100 };
+```
+
+In some cases, the input & output types of a schema can diverge. For instance, the `.transform()` API can convert the input from one type to another. In these cases, you can extract the input and output types independently:
+
+```ts
+const mySchema = z.string().transform((val) => val.length);
+
+type MySchemaIn = z.input<typeof mySchema>;
+// => string
+
+type MySchemaOut = z.output<typeof mySchema>; // equivalent to z.infer<typeof mySchema>
+// number
+```
