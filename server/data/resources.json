@@ -1,0 +1,452 @@
+[
+  {
+    "id": "R-1",
+    "name": "General Beds",
+    "type": "beds",
+    "subType": "General",
+    "currentCount": 143,
+    "totalCapacity": 180,
+    "department": "General Ward",
+    "thresholds": {
+      "warning": 50,
+      "critical": 20
+    },
+    "unit": "beds",
+    "lastUpdated": "2026-05-21T10:55:00.652Z"
+  },
+  {
+    "id": "R-2",
+    "name": "ICU Beds",
+    "type": "beds",
+    "subType": "ICU",
+    "currentCount": 7,
+    "totalCapacity": 30,
+    "department": "ICU",
+    "thresholds": {
+      "warning": 10,
+      "critical": 5
+    },
+    "unit": "beds",
+    "lastUpdated": "2026-05-31T14:43:00.605Z"
+  },
+  {
+    "id": "R-3",
+    "name": "Emergency Beds",
+    "type": "beds",
+    "subType": "Emergency",
+    "currentCount": 12,
+    "totalCapacity": 40,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 12,
+      "critical": 6
+    },
+    "unit": "beds",
+    "lastUpdated": "2026-05-21T10:03:46.640Z"
+  },
+  {
+    "id": "R-4",
+    "name": "Standard Oxygen Cylinders",
+    "type": "oxygen",
+    "subType": "Standard",
+    "currentCount": 85,
+    "totalCapacity": 120,
+    "department": "General Ward",
+    "thresholds": {
+      "warning": 30,
+      "critical": 15
+    },
+    "unit": "cylinders",
+    "lastUpdated": "2026-05-21T09:44:29.956Z"
+  },
+  {
+    "id": "R-5",
+    "name": "Portable Oxygen Cylinders",
+    "type": "oxygen",
+    "subType": "Portable",
+    "currentCount": 17,
+    "totalCapacity": 50,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 15,
+      "critical": 8
+    },
+    "unit": "cylinders",
+    "lastUpdated": "2026-05-21T10:30:18.802Z"
+  },
+  {
+    "id": "R-6",
+    "name": "Adult Ventilators",
+    "type": "ventilators",
+    "subType": "Adult",
+    "currentCount": 5,
+    "totalCapacity": 20,
+    "department": "ICU",
+    "thresholds": {
+      "warning": 6,
+      "critical": 3
+    },
+    "unit": "units",
+    "lastUpdated": "2026-05-21T09:44:36.127Z"
+  },
+  {
+    "id": "R-7",
+    "name": "Pediatric Ventilators",
+    "type": "ventilators",
+    "subType": "Pediatric",
+    "currentCount": 8,
+    "totalCapacity": 10,
+    "department": "ICU",
+    "thresholds": {
+      "warning": 3,
+      "critical": 1
+    },
+    "unit": "units",
+    "lastUpdated": "2026-05-21T09:38:22.774Z"
+  },
+  {
+    "id": "R-8",
+    "name": "Blood Unit A+",
+    "type": "blood",
+    "subType": "A+",
+    "currentCount": 15,
+    "totalCapacity": 30,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 10,
+      "critical": 4
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:37:16.403Z"
+  },
+  {
+    "id": "R-9",
+    "name": "Blood Unit A-",
+    "type": "blood",
+    "subType": "A-",
+    "currentCount": 5,
+    "totalCapacity": 15,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 5,
+      "critical": 2
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T10:51:24.240Z"
+  },
+  {
+    "id": "R-10",
+    "name": "Blood Unit B+",
+    "type": "blood",
+    "subType": "B+",
+    "currentCount": 18,
+    "totalCapacity": 30,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 10,
+      "critical": 4
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:57:08.357Z"
+  },
+  {
+    "id": "R-11",
+    "name": "Blood Unit B-",
+    "type": "blood",
+    "subType": "B-",
+    "currentCount": 3,
+    "totalCapacity": 15,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 5,
+      "critical": 2
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:44:35.846Z"
+  },
+  {
+    "id": "R-12",
+    "name": "Blood Unit O+",
+    "type": "blood",
+    "subType": "O+",
+    "currentCount": 22,
+    "totalCapacity": 40,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 14,
+      "critical": 6
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:47:28.743Z"
+  },
+  {
+    "id": "R-13",
+    "name": "Blood Unit O-",
+    "type": "blood",
+    "subType": "O-",
+    "currentCount": 2,
+    "totalCapacity": 20,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 7,
+      "critical": 3
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:56:07.759Z"
+  },
+  {
+    "id": "R-14",
+    "name": "Blood Unit AB+",
+    "type": "blood",
+    "subType": "AB+",
+    "currentCount": 10,
+    "totalCapacity": 20,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 7,
+      "critical": 3
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T10:02:43.689Z"
+  },
+  {
+    "id": "R-15",
+    "name": "Blood Unit AB-",
+    "type": "blood",
+    "subType": "AB-",
+    "currentCount": 1,
+    "totalCapacity": 10,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 3,
+      "critical": 1
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:45:11.143Z"
+  },
+  {
+    "id": "R-16",
+    "name": "Epinephrine Vials",
+    "type": "medicines",
+    "subType": "Epinephrine",
+    "currentCount": 45,
+    "totalCapacity": 200,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 50,
+      "critical": 20
+    },
+    "unit": "vials",
+    "lastUpdated": "2026-05-21T10:00:45.427Z"
+  },
+  {
+    "id": "R-17",
+    "name": "Insulin (Rapid Acting)",
+    "type": "medicines",
+    "subType": "Insulin",
+    "currentCount": 120,
+    "totalCapacity": 150,
+    "department": "Pharmacy",
+    "thresholds": {
+      "warning": 40,
+      "critical": 15
+    },
+    "unit": "vials",
+    "lastUpdated": "2026-05-21T09:46:58.765Z"
+  },
+  {
+    "id": "R-18",
+    "name": "Morphine Injections",
+    "type": "medicines",
+    "subType": "Morphine",
+    "currentCount": 43,
+    "totalCapacity": 100,
+    "department": "Pharmacy",
+    "thresholds": {
+      "warning": 25,
+      "critical": 10
+    },
+    "unit": "ampoules",
+    "lastUpdated": "2026-05-31T14:42:16.021Z"
+  },
+  {
+    "id": "R-19",
+    "name": "Heparin IV",
+    "type": "medicines",
+    "subType": "Heparin",
+    "currentCount": 14,
+    "totalCapacity": 80,
+    "department": "Pharmacy",
+    "thresholds": {
+      "warning": 20,
+      "critical": 10
+    },
+    "unit": "bags",
+    "lastUpdated": "2026-05-21T09:21:16.789Z"
+  },
+  {
+    "id": "R-20",
+    "name": "Propofol Vials",
+    "type": "medicines",
+    "subType": "Propofol",
+    "currentCount": 95,
+    "totalCapacity": 120,
+    "department": "OT",
+    "thresholds": {
+      "warning": 30,
+      "critical": 15
+    },
+    "unit": "vials",
+    "lastUpdated": "2026-05-21T09:21:58.073Z"
+  },
+  {
+    "id": "R-21",
+    "name": "Albuterol Inhalers",
+    "type": "medicines",
+    "subType": "Albuterol",
+    "currentCount": 64,
+    "totalCapacity": 80,
+    "department": "Pharmacy",
+    "thresholds": {
+      "warning": 20,
+      "critical": 10
+    },
+    "unit": "units",
+    "lastUpdated": "2026-05-21T10:00:02.530Z"
+  },
+  {
+    "id": "R-22",
+    "name": "Patient Monitors",
+    "type": "equipment",
+    "subType": "Monitor",
+    "currentCount": 48,
+    "totalCapacity": 60,
+    "department": "ICU",
+    "thresholds": {
+      "warning": 15,
+      "critical": 8
+    },
+    "unit": "devices",
+    "lastUpdated": "2026-05-21T10:04:58.448Z"
+  },
+  {
+    "id": "R-23",
+    "name": "Defibrillators",
+    "type": "equipment",
+    "subType": "Defibrillator",
+    "currentCount": 14,
+    "totalCapacity": 15,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 4,
+      "critical": 2
+    },
+    "unit": "devices",
+    "lastUpdated": "2026-05-21T10:02:37.406Z"
+  },
+  {
+    "id": "R-24",
+    "name": "Infusion Pumps",
+    "type": "equipment",
+    "subType": "Infusion Pump",
+    "currentCount": 82,
+    "totalCapacity": 100,
+    "department": "General Ward",
+    "thresholds": {
+      "warning": 20,
+      "critical": 10
+    },
+    "unit": "devices",
+    "lastUpdated": "2026-05-21T09:49:12.510Z"
+  },
+  {
+    "id": "R-25",
+    "name": "Trauma Response Kits",
+    "type": "kits",
+    "subType": "Trauma",
+    "currentCount": 9,
+    "totalCapacity": 30,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 10,
+      "critical": 5
+    },
+    "unit": "kits",
+    "lastUpdated": "2026-05-21T09:38:17.382Z"
+  },
+  {
+    "id": "R-26",
+    "name": "Cardiac Care Kits",
+    "type": "kits",
+    "subType": "Cardiac",
+    "currentCount": 18,
+    "totalCapacity": 25,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 6,
+      "critical": 3
+    },
+    "unit": "kits",
+    "lastUpdated": "2026-05-21T09:52:26.172Z"
+  },
+  {
+    "id": "R-27",
+    "name": "Respiratory Emergency Kits",
+    "type": "kits",
+    "subType": "Respiratory",
+    "currentCount": 4,
+    "totalCapacity": 20,
+    "department": "Emergency",
+    "thresholds": {
+      "warning": 6,
+      "critical": 3
+    },
+    "unit": "kits",
+    "lastUpdated": "2026-05-21T13:52:07.632Z"
+  },
+  {
+    "id": "R-28",
+    "name": "On-duty Doctors",
+    "type": "staff",
+    "subType": "Doctors",
+    "currentCount": 14,
+    "totalCapacity": 20,
+    "department": "General Ward",
+    "thresholds": {
+      "warning": 8,
+      "critical": 4
+    },
+    "unit": "active",
+    "lastUpdated": "2026-05-21T09:17:24.683Z"
+  },
+  {
+    "id": "R-29",
+    "name": "On-duty Nurses",
+    "type": "staff",
+    "subType": "Nurses",
+    "currentCount": 38,
+    "totalCapacity": 50,
+    "department": "General Ward",
+    "thresholds": {
+      "warning": 15,
+      "critical": 8
+    },
+    "unit": "active",
+    "lastUpdated": "2026-05-21T10:08:31.974Z"
+  },
+  {
+    "id": "R-30",
+    "name": "On-duty Technicians",
+    "type": "staff",
+    "subType": "Technicians",
+    "currentCount": 8,
+    "totalCapacity": 12,
+    "department": "OT",
+    "thresholds": {
+      "warning": 4,
+      "critical": 2
+    },
+    "unit": "active",
+    "lastUpdated": "2026-05-21T09:18:23.587Z"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "idTag": "ID-ADM-001",
+    "id": "ST-101",
+    "name": "Dr. Sarah Jenkins",
+    "role": "admin",
+    "department": "All Wards"
+  },
+  {
+    "idTag": "ID-CLI-102",
+    "id": "ST-102",
+    "name": "Nurse Clara Finch",
+    "role": "clinician",
+    "department": "Emergency"
+  },
+  {
+    "idTag": "ID-PHR-504",
+    "id": "ST-504",
+    "name": "Marcus Vance",
+    "role": "pharmacist",
+    "department": "Pharmacy"
+  }
+]

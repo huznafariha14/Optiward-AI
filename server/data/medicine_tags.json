@@ -1,0 +1,68 @@
+[
+  {
+    "tagCode": "TAG-EPI-771",
+    "resourceId": "R-16",
+    "name": "Epinephrine Vials",
+    "subType": "Epinephrine",
+    "mfgDate": "2025-06-15",
+    "expDate": "2027-06-15",
+    "batch": "EP-9982",
+    "supplier": "Baxter Healthcare",
+    "quantity": 10
+  },
+  {
+    "tagCode": "TAG-INS-502",
+    "resourceId": "R-17",
+    "name": "Insulin (Rapid Acting)",
+    "subType": "Insulin",
+    "mfgDate": "2025-11-01",
+    "expDate": "2027-11-01",
+    "batch": "IN-8812",
+    "supplier": "Eli Lilly",
+    "quantity": 15
+  },
+  {
+    "tagCode": "TAG-MOR-339",
+    "resourceId": "R-18",
+    "name": "Morphine Injections",
+    "subType": "Morphine",
+    "mfgDate": "2025-01-20",
+    "expDate": "2026-08-20",
+    "batch": "MR-4402",
+    "supplier": "Pfizer Rx",
+    "quantity": 5
+  },
+  {
+    "tagCode": "TAG-HEP-128",
+    "resourceId": "R-19",
+    "name": "Heparin IV Bags",
+    "subType": "Heparin",
+    "mfgDate": "2024-04-10",
+    "expDate": "2025-10-10",
+    "batch": "HP-1122",
+    "supplier": "Hospira",
+    "quantity": 8
+  },
+  {
+    "tagCode": "TAG-PRO-905",
+    "resourceId": "R-20",
+    "name": "Propofol Vials",
+    "subType": "Propofol",
+    "mfgDate": "2025-08-05",
+    "expDate": "2027-08-05",
+    "batch": "PR-6631",
+    "supplier": "Fresenius Kabi",
+    "quantity": 20
+  },
+  {
+    "tagCode": "TAG-ALB-441",
+    "resourceId": "R-21",
+    "name": "Albuterol Inhalers",
+    "subType": "Albuterol",
+    "mfgDate": "2025-03-10",
+    "expDate": "2027-03-10",
+    "batch": "AL-5509",
+    "supplier": "GlaxoSmithKline",
+    "quantity": 12
+  }
+]
