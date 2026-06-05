@@ -23,8 +23,8 @@
     "explanation": "Emergency beds are operating at 30% capacity. Incoming ambulance re-routing or general ward transfers are recommended within the next 4 hours to prevent admission gridlock.",
     "timeToDepletion": 6,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.759Z",
-    "lastUpdated": "2026-06-01T01:15:00.787Z"
+    "timestamp": "2026-06-05T08:23:24.888Z",
+    "lastUpdated": "2026-06-05T08:23:24.890Z"
   },
   {
     "id": "A-3",
@@ -48,8 +48,8 @@
     "explanation": "Epinephrine stock has fallen below the 30% safe threshold (45 vials remaining). Average daily consumption predicts a complete depletion in 18 hours. Pharmacy restocking order is pending approval.",
     "timeToDepletion": 10,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.920Z",
-    "lastUpdated": "2026-06-01T01:15:00.938Z"
+    "timestamp": "2026-06-05T08:23:24.995Z",
+    "lastUpdated": "2026-06-05T08:23:24.999Z"
   },
   {
     "id": "A-5",
@@ -61,8 +61,8 @@
     "explanation": "Only 5 kits remain. Due to a surge in seasonal asthma and respiratory virus cases in the ER, consumption rate has doubled. Critical shortage expected in 8 hours without rapid resupply.",
     "timeToDepletion": 2,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.982Z",
-    "lastUpdated": "2026-06-01T01:15:01.000Z"
+    "timestamp": "2026-06-05T08:23:25.030Z",
+    "lastUpdated": "2026-06-05T08:23:25.037Z"
   },
   {
     "id": "A-1779358246414-312",
@@ -102,8 +102,8 @@
     "explanation": "Blood type A- reserves are approaching warning levels (4 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
     "timeToDepletion": 20,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.877Z",
-    "lastUpdated": "2026-06-01T01:15:00.894Z"
+    "timestamp": "2026-06-05T08:23:24.966Z",
+    "lastUpdated": "2026-06-05T08:23:24.973Z"
   },
   {
     "id": "A-1779358246467-729",
@@ -115,8 +115,8 @@
     "explanation": "Blood type B- reserves are approaching warning levels (3 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
     "timeToDepletion": 7,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.896Z",
-    "lastUpdated": "2026-06-01T01:15:00.916Z"
+    "timestamp": "2026-06-05T08:23:24.980Z",
+    "lastUpdated": "2026-06-05T08:23:24.986Z"
   },
   {
     "id": "A-1779358246486-762",
@@ -142,8 +142,8 @@
     "explanation": "Critical anticoagulant alert: Heparin IV stock is down to 14 bags. Epinephrine and general ICU sedation/intubation protocols will be severely impacted if depleted. Contact primary vendor for emergency delivery.",
     "timeToDepletion": 3,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.940Z",
-    "lastUpdated": "2026-06-01T01:15:00.957Z"
+    "timestamp": "2026-06-05T08:23:25.004Z",
+    "lastUpdated": "2026-06-05T08:23:25.008Z"
   },
   {
     "id": "A-1779358246546-521",
@@ -155,8 +155,8 @@
     "explanation": "Trauma response inventory is low. Multiple trauma incidents will stress primary triage. Ensure secondary backup kits are active and pre-staged.",
     "timeToDepletion": 10,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.959Z",
-    "lastUpdated": "2026-06-01T01:15:00.979Z"
+    "timestamp": "2026-06-05T08:23:25.013Z",
+    "lastUpdated": "2026-06-05T08:23:25.019Z"
   },
   {
     "id": "A-1779358407734-622",
@@ -446,8 +446,8 @@
     "explanation": "Critical risk: ICU bed occupancy is near capacity. Incoming trauma or post-op cases requiring critical care will experience delayed admission, risking clinical deterioration. Recommending elective surgery deferrals and checking step-down unit availability.",
     "timeToDepletion": 4,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.753Z",
-    "lastUpdated": "2026-06-01T01:15:00.754Z"
+    "timestamp": "2026-06-05T08:23:24.868Z",
+    "lastUpdated": "2026-06-05T08:23:24.875Z"
   },
   {
     "id": "A-1779360030801-964",
@@ -2349,8 +2349,8 @@
     "explanation": "ICU respiratory risk: Only 5 adult ventilators remain available. With an active flu/pneumonia season, a sudden influx of respiratory failure cases will exceed capacity. Coordinate with Biomed for prompt maintenance of offline units.",
     "timeToDepletion": 10,
     "status": "active",
-    "timestamp": "2026-06-01T01:15:00.833Z",
-    "lastUpdated": "2026-06-01T01:15:00.854Z"
+    "timestamp": "2026-06-05T08:23:24.927Z",
+    "lastUpdated": "2026-06-05T08:23:24.936Z"
   },
   {
     "id": "A-1779423474007-818",
@@ -3317,5 +3317,257 @@
     "timestamp": "2026-06-01T01:15:00.875Z",
     "resolvedAt": "2026-06-01T01:15:01.025Z",
     "lastUpdated": "2026-06-01T01:15:01.050Z"
+  },
+  {
+    "id": "A-1780640752800-146",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:25:52.800Z",
+    "resolvedAt": "2026-06-05T06:25:52.850Z",
+    "lastUpdated": "2026-06-05T06:25:52.853Z"
+  },
+  {
+    "id": "A-1780640752811-567",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:25:52.811Z",
+    "resolvedAt": "2026-06-05T06:25:52.857Z",
+    "lastUpdated": "2026-06-05T06:25:52.859Z"
+  },
+  {
+    "id": "A-1780641049796-806",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:30:49.796Z",
+    "resolvedAt": "2026-06-05T06:30:49.846Z",
+    "lastUpdated": "2026-06-05T06:30:49.848Z"
+  },
+  {
+    "id": "A-1780641049811-872",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:30:49.811Z",
+    "resolvedAt": "2026-06-05T06:30:49.850Z",
+    "lastUpdated": "2026-06-05T06:30:49.852Z"
+  },
+  {
+    "id": "A-1780641349801-232",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:35:49.801Z",
+    "resolvedAt": "2026-06-05T06:35:49.831Z",
+    "lastUpdated": "2026-06-05T06:35:49.832Z"
+  },
+  {
+    "id": "A-1780641349809-654",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:35:49.809Z",
+    "resolvedAt": "2026-06-05T06:35:49.834Z",
+    "lastUpdated": "2026-06-05T06:35:49.836Z"
+  },
+  {
+    "id": "A-1780641649813-815",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:40:49.813Z",
+    "resolvedAt": "2026-06-05T06:40:49.844Z",
+    "lastUpdated": "2026-06-05T06:40:49.846Z"
+  },
+  {
+    "id": "A-1780641649820-602",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:40:49.820Z",
+    "resolvedAt": "2026-06-05T06:40:49.847Z",
+    "lastUpdated": "2026-06-05T06:40:49.851Z"
+  },
+  {
+    "id": "A-1780641949817-809",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:45:49.817Z",
+    "resolvedAt": "2026-06-05T06:45:49.843Z",
+    "lastUpdated": "2026-06-05T06:45:49.844Z"
+  },
+  {
+    "id": "A-1780641949822-158",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T06:45:49.822Z",
+    "resolvedAt": "2026-06-05T06:45:49.846Z",
+    "lastUpdated": "2026-06-05T06:45:49.848Z"
+  },
+  {
+    "id": "A-1780646904997-171",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:08:24.997Z",
+    "resolvedAt": "2026-06-05T08:08:26.730Z",
+    "lastUpdated": "2026-06-05T08:08:26.950Z"
+  },
+  {
+    "id": "A-1780646905220-69",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:08:25.220Z",
+    "resolvedAt": "2026-06-05T08:08:27.149Z",
+    "lastUpdated": "2026-06-05T08:08:27.205Z"
+  },
+  {
+    "id": "A-1780647205104-795",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:13:25.104Z",
+    "resolvedAt": "2026-06-05T08:13:25.236Z",
+    "lastUpdated": "2026-06-05T08:13:25.239Z"
+  },
+  {
+    "id": "A-1780647205143-233",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:13:25.143Z",
+    "resolvedAt": "2026-06-05T08:13:25.246Z",
+    "lastUpdated": "2026-06-05T08:13:25.251Z"
+  },
+  {
+    "id": "A-1780647505044-965",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:18:25.044Z",
+    "resolvedAt": "2026-06-05T08:18:25.441Z",
+    "lastUpdated": "2026-06-05T08:18:25.462Z"
+  },
+  {
+    "id": "A-1780647505202-366",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:18:25.202Z",
+    "resolvedAt": "2026-06-05T08:18:25.510Z",
+    "lastUpdated": "2026-06-05T08:18:25.538Z"
+  },
+  {
+    "id": "A-1780647804915-748",
+    "resourceId": "R-5",
+    "resourceType": "oxygen",
+    "subType": "Portable",
+    "severity": "critical",
+    "message": "Portable oxygen running low.",
+    "explanation": "Oxygen support warning: standard cylinder counts are low. Continuous high-flow oxygen patients are consuming reserves faster than typical restocking cycles. Ensure backup manifold operations are verified.",
+    "timeToDepletion": 8,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:23:24.915Z",
+    "resolvedAt": "2026-06-05T08:23:25.052Z",
+    "lastUpdated": "2026-06-05T08:23:25.058Z"
+  },
+  {
+    "id": "A-1780647804964-296",
+    "resourceId": "R-8",
+    "resourceType": "blood",
+    "subType": "A+",
+    "severity": "warning",
+    "message": "A+ blood running low.",
+    "explanation": "Blood type A+ reserves are approaching warning levels (15 bags). Review scheduled surgeries and conserve supply where clinically appropriate.",
+    "timeToDepletion": 18,
+    "status": "resolved",
+    "timestamp": "2026-06-05T08:23:24.964Z",
+    "resolvedAt": "2026-06-05T08:23:25.070Z",
+    "lastUpdated": "2026-06-05T08:23:25.076Z"
   }
 ]
